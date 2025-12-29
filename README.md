@@ -59,3 +59,11 @@ This project demonstrates a complete mobile-oriented object detection pipeline,
 from dataset creation and model benchmarking to real-time deployment.
 By prioritizing both accuracy and inference speed, the final system achieves
 practical usability on resource-constrained mobile devices.
+
+## License and Usage
+
+This project and the included best.pt model were developed by Tuğba KABLAN, Aleyna ÖZMEN, Ayşenur BEÇİT, Elif ALIN and are available for educational and testing purposes only. Commercial use or redistribution of the model is not allowed without permission.
+
+Users may utilize the model for their own experimental work, provided proper credit is given to this repository.
+
+License: MIT – Applicable for educational and research use only.
