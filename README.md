@@ -1,16 +1,11 @@
-# Mobile Waste Detection with YOLOv8n
-This repository presents an end-to-end waste detection system designed for mobile devices.
-The system performs real-time object detection using YOLOv8 and is optimized for on-device inference.
-The project covers the full pipeline from dataset creation and model selection to mobile deployment.
+# Real-Time Waste Detection on Mobile Devices
 
-## Model Selection
+This project presents an end-to-end real-time waste detection system designed for mobile devices.
+A custom dataset was created from scratch and object detection models YOLOv8s/n, YOLOv11s/n, YOLOv12s/n, RT-DETR were trained and evaluated under identical conditions.
+Through data-centric optimization, YOLOv8n was selected as the final model, achieving 0.9248 mAP50
+and 91.42 FPS, and deployed on a mobile application using TensorFlow Lite.
 
-7  object detection models were trained and evaluated under identical conditions. Then,new datas added and two best-performed model re-trained.
-The selection was based on accuracy, speed, and suitability for real-time mobile deployment. 
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/0ffed436-e4eb-431d-a6dc-ea34fe37feba" />
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/f7b121c2-516c-46f0-bc1a-21c828550dd5" />
-
-YOLOv8n was selected as the final model due to its superior real-time performance and highest overall efficiency score for mobile inference.
 
 ## Dataset
 The dataset used in this project was fully created from scratch by the authors.
@@ -31,6 +26,15 @@ Model performance improvements were primarily achieved through dataset refinemen
 - Class balance optimization
 - Data augmentation (rotation, brightness variation, blur)
 - Iterative dataset versioning and error analysis
+
+## Model Selection
+
+7  object detection models were trained and evaluated under identical conditions. Then,new datas added and two best-performed model re-trained.
+The selection was based on accuracy, speed, and suitability for real-time mobile deployment. 
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/f7b121c2-516c-46f0-bc1a-21c828550dd5" />
+
+YOLOv8n was selected as the final model due to its superior real-time performance and highest overall efficiency score for mobile inference.
 
 ### Mobile Application Inference
 Examples of real-world detections produced by the final YOLOv8n model.
