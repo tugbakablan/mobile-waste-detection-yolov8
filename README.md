@@ -1,4 +1,5 @@
 # Real-Time Waste Detection on Mobile Devices
+<img width="300" height="420" alt="image" src="https://github.com/user-attachments/assets/6723f5ab-fa94-4d7d-991b-e3f7115eed0a" />
 
 This project presents an end-to-end real-time waste detection system designed for mobile devices.
 A custom dataset was created from scratch and object detection models YOLOv8s/n, YOLOv11s/n, YOLOv12s/n, RT-DETR were trained and evaluated under identical conditions.
@@ -10,7 +11,7 @@ and 91.42 FPS, and deployed on a mobile application using TensorFlow Lite.
 ## Dataset
 
 The dataset used in this project was created specifically for this study.
-Images were collected from real-world environments and manually annotated
+Images were collected from real-world environments and on Roboflow, manually annotated
 with bounding boxes for waste categories such as plastic, paper, glass, and metal.
 
 The dataset is not publicly released due to licensing and privacy considerations.
